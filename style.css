@@ -1,0 +1,50 @@
+h1
+{
+    background-color: antiquewhite;
+    display: inline-block;
+}
+
+body {
+    text-align: center;
+    font-family: "Courier New", Georgia, "Times New Roman";
+    background-color: skyblue;
+}
+
+.adjust {
+    display:inline-block;
+}
+
+.left {
+    float: left;
+    
+}
+
+.middle {
+    text-align: center;
+}
+
+.right {
+    float:right;
+}
+
+img {
+    float: right;
+    height: auto;
+    width: 200px;
+}
+
+#blue {
+    float:left;
+}
+#yellow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+#brown {
+    display: block;
+  margin-left: 100%;
+  margin-right: auto;
+  width: 0%;
+}
